@@ -4,7 +4,7 @@ import styles from '../components/ProductCard.module.css'
 export default function ProductCard({ product }) {
   return (
     <div className={styles.productCardContainer}>
-      <img src={product.image_url} className={styles.productCardContainer}alt={product.name} />
+      <img src={product.image_url} className={styles.productCardImg}alt={product.name} />
       <div className={styles.ProductCardBox}>
         <h3 className={styles.ProductCardName}>{product.name}</h3>
         <p className={styles.ProductCardDesc}>{product.description}</p>
