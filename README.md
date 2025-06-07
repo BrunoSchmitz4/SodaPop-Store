@@ -11,5 +11,5 @@ NodeJS | Express JS | Javascript
 - Banco de dados:
 HeidiSQL | Xampp | MySQL
 
-A- PI Requests Test:
+- API Requests Test:
 Insominia
