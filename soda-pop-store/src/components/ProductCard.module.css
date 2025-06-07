@@ -1,0 +1,35 @@
+.productCardContainer {
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 1px solid #FFB6C1;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 24px;
+    color: #C71585;
+    min-height: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+    flex: auto;
+}
+
+.ProductCardBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProductCardName {
+    text-align: center;
+}
+
+
+.ProductCardBtn {
+    border-radius: 8px;
+    border: none;
+    color: #C71585;
+    background-color: #FFB6C1;
+}
